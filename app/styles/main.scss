@@ -1,0 +1,28 @@
+@import "bower_components/bootstrap/scss/bootstrap";
+@import "scss/fontawesome.scss";
+@import "scss/solid.scss";
+@import "scss/_core.scss";
+@import "scss/_icons.scss";
+@import "scss/brands.scss";
+@import "variables";
+@import "header";
+@import "benefit";
+@import "review";
+@import "product";
+@import "addDate";
+@import "footer";
+
+.header__poster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+h2 {
+    font-size: 25px !important;
+}
+hr {
+    padding-bottom: 2%;
+    width: 100%;
+}
+

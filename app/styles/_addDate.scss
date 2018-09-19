@@ -1,0 +1,24 @@
+.addDate {
+  overflow: hidden;
+  padding-top: 4%;
+  width: 100%;
+  line-height: $text-lineheight;
+  padding-bottom: 2%;
+
+  .addDate h2 {
+    font-size: 510px;
+  }
+
+  &__button {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    font-weight: 800 !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    border-radius: 4px !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    background: $graydark-color !important;
+    border-color: transparent !important;
+  }
+}

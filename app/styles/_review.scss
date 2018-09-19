@@ -1,0 +1,35 @@
+.review {
+  width: 100%;
+  padding-top: 15%;
+  overflow: hidden;
+
+  &__p {
+    font-size: $text-fontsize !important;
+    line-height: $text-lineheight !important;
+    font-family: $font-stack;
+    letter-spacing: normal !important;
+  }
+
+  &__icon {
+    color: yellow;
+  }
+
+  &__Hotelroom {
+    width: 100%;
+  }
+
+  &__user {
+    display: inline-block;
+  }
+
+  &__userinfo {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5px;
+  }
+
+  &__avatar {
+    width: 48px;
+    height: 48px;
+  }
+}

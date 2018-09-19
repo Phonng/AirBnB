@@ -1,0 +1,33 @@
+.product {
+  overflow: hidden;
+  padding-top: 4%;
+  width: 100%;
+  line-height: $text-lineheight;
+
+  &__place {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  &__name {
+    font-size: $text-fontsize;
+    font-weight: bold;
+    opacity: 5%;
+    color: #484848 !important;
+  }
+
+  &__showall {
+    font-size: 20px;
+    color: $graydark-color !important;
+  }
+
+  &__Hotelroom {
+    width: 100%;
+  }
+
+  @media (max-width: 744px) {
+    &__showall {
+      display: none;
+    }
+  }
+}
